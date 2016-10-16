@@ -47,15 +47,15 @@ body {
     padding: 16px 0;
     text-transform: uppercase;
     width: 100%;
-    -webkit-transition: 10s ease-in-out;
-    -moz-transition: 10s ease-in-out;
-    -o-transition: 10s ease-in-out;
-    transition: 10s ease-in-out;
+    -webkit-transition: 5s ease-in-out;
+    -moz-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
+    transition: 5s ease-in-out;
 }
 
 .navbar a:hover, .navbar a:focus {
     background-color: black;
-    transform: rotate3d(1, 2, -1, 1800deg);
+    transform: rotate3d(1, 2, -1, 3600deg);
 }
 
 .page-content {
