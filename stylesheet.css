@@ -14,14 +14,10 @@ a:visited {
 
 body {
     text-align: center;
-    margin: 0;
 }
 
 .navbar {
     width: 100%;
-    z-index: 999;
-    top: 0;
-    left: 0;
     height: 100%;
 }
 
@@ -42,8 +38,8 @@ body {
     font-size: 20px;
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 8px 0;
-    width: 100%;
+    padding: 12px 0;
+    width: 80%;
 
     -webkit-transition: 0.25s ease-in-out;
     -moz-transition: 0.25s ease-in-out;
@@ -52,7 +48,7 @@ body {
 }
 
 .navbar a:hover, .navbar a:focus {
-    transform: scale(1.2);
+    transform: scaleX(1.4);
     background-color: #D62C04;
 }
 
