@@ -38,6 +38,11 @@ body {
     color: white;
 }
 
+.intro {
+    max-width: 95%;
+    margin: auto;
+}
+
 .intro img {
     width: 70%;
     max-width: 420px;
@@ -48,5 +53,9 @@ body {
     .navbar li {
         float: none;
         width: 100%;
+    }
+
+    h1 {
+        margin: 0;
     }
 }
