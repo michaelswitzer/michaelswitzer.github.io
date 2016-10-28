@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -21,7 +21,7 @@ body {
 }
 
 .navbar ul {
-    padding: 20px 0;
+    padding: 20px 150px;
     margin: 0;
 }
 
@@ -39,17 +39,17 @@ body {
     letter-spacing: 2px;
 }
 
-.intro {
+.page-content {
     max-width: 95%;
     margin: auto;
 }
 
-.intro img {
+.page-content img {
     width: 70%;
     max-width: 420px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 760px) {
 
     .navbar li {
         float: none;
