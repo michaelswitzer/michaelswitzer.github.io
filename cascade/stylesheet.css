@@ -14,7 +14,6 @@ a {
 }
 
 img {
-    width: 420px;
     max-width: 69%;
     margin: 0px 20px;
 }
@@ -63,6 +62,7 @@ h1 {
 @media (max-width: 800px) {
 
     img {
+        width: 360px;
         max-width: 85%;
     }
 
@@ -71,7 +71,7 @@ h1 {
     }
 
     .splash h1 {
-        font-size: 420%;
+        font-size: 469%;
     }
 
     .header li {
