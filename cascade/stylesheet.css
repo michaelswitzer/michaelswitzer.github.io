@@ -48,7 +48,7 @@ h1 {
 .header li {
     list-style-type: none;
     float: left;
-    width: 16.66%;
+    width: 14.28%;
     text-align: center;
     padding: 5px 0px;
 }
@@ -60,7 +60,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-@media (max-width: 666px) {
+@media (max-width: 800px) {
 
     img {
         max-width: 85%;
