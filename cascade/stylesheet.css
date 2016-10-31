@@ -36,7 +36,7 @@ h3 {
 
 .header h3 {
     display: inline-block;
-    width: 200px;
+    width: 170px;
     text-align: center;
 }
 
@@ -46,6 +46,7 @@ h3 {
     font-weight: 100;
     text-decoration: none;
     letter-spacing: 2px;
+    padding: 10px;
 }
 
 .header a:hover, .header a:focus {
@@ -67,13 +68,19 @@ input[type=text] {
     width: 95%;
     margin: 0 auto;
     padding:5px; 
-    border:2px solid black; 
-/*    -webkit-border-radius: 5px;
-    border-radius: 5px;*/
+    border:2px solid black;
 }
 
 input[type=text]:focus {
     border-color:#333;
+}
+
+.settings input[type=text] {
+    width: 150px;
+}
+
+.settings p {
+    margin: 5% 0;
 }
 
 input[type=submit] {
@@ -86,6 +93,11 @@ input[type=submit] {
     -webkit-border-radius: 5px;
     border-radius: 5px; 
     min-width: 200px;
+}
+
+input[type=submit]:hover, input[type=submit]:focus {
+    background-color: black;
+    color: white;
 }
 
 .submit-row {
