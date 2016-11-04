@@ -18,11 +18,19 @@ ol, ul {
     margin-left: 10%;
 }
 
-a:hover, a:focus {
+a:hover, a:focus, mark {
     background-color: black;
     color: white;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+}
+
+mark {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 img {
