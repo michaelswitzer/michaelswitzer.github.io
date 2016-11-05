@@ -22,11 +22,14 @@ ol, ul {
     margin-left: 42px;
 }
 
-a:hover, a:focus {
+a:hover, a:focus, b {
     background-color: black;
     color: white;
-    -webkit-border-radius: 11px;
-    border-radius: 11px;
+}
+
+b:hover, b:focus {
+    background-color: white;
+    color: black;
 }
 
 mark {
@@ -77,6 +80,7 @@ h3 {
 .navbar p {
     width: 85%;
     margin: auto;
+    padding: 2px 0;
 }
 
 .case-answer-field {
