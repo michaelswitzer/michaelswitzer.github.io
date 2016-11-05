@@ -22,19 +22,17 @@ ol, ul {
     margin-left: 42px;
 }
 
-a:hover, a:focus, mark {
+a:hover, a:focus {
     background-color: black;
     color: white;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
 }
 
 mark {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    background-color: white;
+    color: white;
+    border-bottom: 2px solid black;
 }
 
 img {
