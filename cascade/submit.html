@@ -9,7 +9,7 @@
 <body>
     <div class="navbar">
         <h2>Cascade</h2>
-        <h3><a href="./play.html">play</a> <a href="./submit.html"><mark>contribute</mark></a> <a href="./settings.html">settings</a> <a href="./how-to-play.html">how to play</a> <a href="./history.html">history</a> <a href="./leaderboard.html">standings</a> <a href="./about.html">about</a></h3>
+        <h3><a href="./play.html">play</a> <mark><a href="./submit.html">contribute</a></mark> <a href="./settings.html">settings</a> <a href="./how-to-play.html">how to play</a> <a href="./history.html">history</a> <a href="./leaderboard.html">standings</a></h3>
         <p>Logged in as: MS <a href="./login.html">(logout)</a></p>
         <p>Balance: 93 Points <a href="./balance.html">(refill)</a></p>
     </div>
@@ -32,13 +32,14 @@
                 <div class="answer-box">
                     <label for="GET-name">Title:</label>
                     <input id="GET-name" type="text">
-                    <label for="GET-name"> Summary (Sent to all players at beginning of case)</label>
+                    <label for="GET-name"> Summary (Sent to all players at beginning of case) (max length 800 or 5 texts)</label>
                     <input id="GET-name" type="text" maxlength="5000">
                 </div>
                 <h2>Player Information</h2>
                 <div class="answer-box">
                     <label for="GET-name">Number of Players</label>
                     <select>
+                        <option selected="selected">4</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
@@ -46,47 +47,77 @@
                         <option value="6">6</option>
                     </select>
                 </div>
+                <h2>Player 1</h2>
                 <div class="answer-box">
-                    <label for="GET-name">Player 1's Name</label>
+                    <label for="GET-name">Character Name</label>
                     <input id="GET-name" type="text" maxlength="8">
-                    <label for="GET-name">Secret Info For Player 1</label>
-                    <input id="GET-name" type="text" maxlength="800">
+                    <label for="GET-name">Secret text (max length 160)</label>
+                    <input id="GET-name" type="text" maxlength="160">
+                    <label for="GET-name">Secret image (max resolution 1920x1080)</label>
+                    <input type="submit" value="Upload Image">
                 </div>
+                <h2>Player 2</h2>
                 <div class="answer-box">
-                    <label for="GET-name">Player 2's Name</label>
+                    <label for="GET-name">Character Name</label>
                     <input id="GET-name" type="text" maxlength="8">
-                    <label for="GET-name">Secret Info For Player 2</label>
-                    <input id="GET-name" type="text" maxlength="800">
+                    <label for="GET-name">Secret text (max length 160)</label>
+                    <input id="GET-name" type="text" maxlength="160">
+                    <label for="GET-name">Secret image (max resolution 1920x1080)</label>
+                    <input type="submit" value="Upload Image">
                 </div>
+                <h2>Player 3</h2>
                 <div class="answer-box">
-                    <label for="GET-name">Player 3's Name</label>
+                    <label for="GET-name">Character Name</label>
                     <input id="GET-name" type="text" maxlength="8">
-                    <label for="GET-name">Secret Info For Player 3</label>
-                    <input id="GET-name" type="text" maxlength="800">
+                    <label for="GET-name">Secret text (max length 160)</label>
+                    <input id="GET-name" type="text" maxlength="160">
+                    <label for="GET-name">Secret image (max resolution 1920x1080)</label>
+                    <input type="submit" value="Upload Image">
                 </div>
+                <h2>Player 4</h2>
                 <div class="answer-box">
-                    <label for="GET-name">Player 4's Name</label>
+                    <label for="GET-name">Character Name</label>
                     <input id="GET-name" type="text" maxlength="8">
-                    <label for="GET-name">Secret Info For Player 4</label>
-                    <input id="GET-name" type="text" maxlength="800">
+                    <label for="GET-name">Secret text (max length 160)</label>
+                    <input id="GET-name" type="text" maxlength="160">
+                    <label for="GET-name">Secret image (max resolution 1920x1080)</label>
+                    <input type="submit" value="Upload Image">
                 </div>
+
+
                 <h2>Questions and Answers</h2>
+
                 <div class="answer-box">
-                    <label for="GET-name">Question 1</label>
+                    <label for="GET-name">Number of Questions</label>
+                    <select>
+                        <option selected="selected">3</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+
+                <label for="GET-name">Case Solve Image (shown to all players after case ends) (max resolution 1920x1080)</label>
+                <input type="submit" value="Upload Image">
+
+                <div class="answer-box">
+                    <label for="GET-name">Question 1 (max length 160)</label>
                     <input id="GET-name" type="text">
-                    <label for="GET-name">Answer to Question 1</label>
+                    <label for="GET-name">Answer to Question 1 (max length 160, not case or word order sensitive)</label>
                     <input id="GET-name" type="text" maxlength="160">
                 </div>
                 <div class="answer-box">
-                    <label for="GET-name">Question 2</label>
+                    <label for="GET-name">Question 2 (max length 160)</label>
                     <input id="GET-name" type="text">
-                    <label for="GET-name">Answer to Question 2</label>
+                    <label for="GET-name">Answer to Question 2 (max length 160, not case or word order sensitive)</label>
                     <input id="GET-name" type="text" maxlength="160">
                 </div>
                 <div class="answer-box">
-                    <label for="GET-name">Question 3</label>
+                    <label for="GET-name">Question 3 (max length 160, not case or word order sensitive)</label>
                     <input id="GET-name" type="text">
-                    <label for="GET-name">Answer to Question 3</label>
+                    <label for="GET-name">Answer to Question 3 (max length 160, not case or word order sensitive)</label>
                     <input id="GET-name" type="text" maxlength="160">
                 </div>
                 <div class="submit-row">
@@ -95,6 +126,9 @@
                 </div>
             </form>
         </div>
+    </div>
+    <div class="footer">
+        <h3>Created by <mark><a href="./about.html">Gameing Is a Crime</a></mark></h3>
     </div>
 </body>
 </html>

@@ -40,7 +40,7 @@ mark {
 
 img {
     max-width: 69%;
-    margin: 0px 20px;
+/*    margin: 0px 20px;*/
 }
 
 h1 {
@@ -53,7 +53,7 @@ h3 {
 
 .splash a {
     display: inline-block;
-    width: 100%;
+    text-align: center;
 }
 
 .splash h1 {
@@ -81,6 +81,10 @@ h3 {
     width: 85%;
     margin: auto;
     padding: 2px 0;
+}
+
+.navbar a {
+    padding: 0 2px;
 }
 
 .case-answer-field {
@@ -156,6 +160,15 @@ input[type=submit]:hover, input[type=submit]:focus {
 
 .settings h2 {
     margin: 0px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    margin-top: 5%;
+}
+
+.footer h3 {
+    margin: 3% 0;
 }
 
 @media (max-width: 700px) {
