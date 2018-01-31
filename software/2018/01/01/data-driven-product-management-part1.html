@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introduction to Data-driven Product Management: Part 1</title>
+  <meta name="description" content="It’s my first post!">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/software/2018/01/01/data-driven-product-management-part1.html">
+  <link rel="alternate" type="application/rss+xml" title="Michael Switzer" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" href="/">Michael Switzer</a>
+  
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+
+            <a class="page-link" href="/about/">About</a>
+            
+          
+            
+            
+
+            <a class="page-link" href="/fiction/">Fiction</a>
+            
+          
+            
+            
+
+            <a class="page-link" href="/game-design/">Game Design</a>
+            
+          
+            
+            
+          
+            
+            
+
+            <a class="page-link" href="/software/">Software</a>
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Introduction to Data-driven Product Management: Part 1</h1>
+    <p class="post-meta">
+      <time datetime="2018-01-01T00:00:00-08:00" itemprop="datePublished">
+        
+        Jan 1, 2018
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h2 id="its-my-first-post">It’s my first post!</h2>
+
+<p>For the beginnings of this blog, I thought I would write a high-leveled introduction to what I consider the most important conceptual framework that drives product development today: Data-driven decision making (DDDM). Even for non-tech folks, understanding the basics of DDDM and how it is used to build products can help you protect yourself as a consumer and understand how companies like Amazon, Google and Microsoft manage to maintain high standards of quality even as their companies scale considerably year over year.</p>
+
+<p>For anyone currently in a product management role, understanding the intricacies of DDDM can mean the difference between a decent product and a hugely successful one. This post is primarily aimed at the total newbie, so if you are already familiar with DDDM and want to get serious about it at your organization, this post is likely not going to be very helpful.</p>
+
+<p>Last thing I want to say is that while I plan to give examples of how specific products achieve their goals through DDDM, I have never worked for any of the companies I reference and cannot tell you for sure if they are following the practices I describe exactly. I am going to be purposefully broad about this in any case, so don’t take my word as bond. This is really meant to be an introduction for the complete layman, which will necessarily involve a lot of hand waving.</p>
+
+<p>With that preface out of the way, let’s get into it.</p>
+
+<h2 id="the-stone-ages">The Stone Ages</h2>
+
+<p>Let’s start with a fairly innocuous question: how do big companies make their products better? If the CEO of Microsoft wanted 5% more people to use Outlook by the end of the year, how would they use their budget to do that?</p>
+
+<p>If you were developing software in 2002, you might try:</p>
+<ul>
+  <li>Hire more people to make more features faster</li>
+  <li>Hire smarter people to research human behavior and make a product people want</li>
+  <li>Buy a competing company to acquire their userbase and intellectual property</li>
+</ul>
+
+<p>These answers are all good, and for a long time, represented the primary ways to get ahead in software. If you weren’t shipping fast enough, hire more hands. If people didn’t like your products, hire experts to tell you why. And if someone did it better anyways, buy ‘em out and call it a day.</p>
+
+<p>This type of investment strategy is also conducive to the prevailing development paradigm of that era: “Waterfall”  development. I won’t speak too much about different development strategies in this post (that’s for another day) but it is important to point out here that every aspect of software development in inextricably linked together: Investment strategies lead to hiring strategies lead to development strategies lead to shipping strategies, and changing one development paradigm can often impact the entire process.</p>
+
+<p><img src="http://localhost:4000/assets/posts/data-driven-design/waterfall_dev.svg" alt="Waterfall: design, build, test, ship" /></p>
+
+<p>In “waterfall” development, software is made in distinct drawn out phases that cannot be started until the previous phase is complete.</p>
+
+<p>These phases are:</p>
+
+<ol>
+  <li>
+    <p>Requirements are collected and synthesized.</p>
+  </li>
+  <li>
+    <p>Software is designed and built.</p>
+  </li>
+  <li>
+    <p>A separate team ensures it has the quality necessary to ship.</p>
+  </li>
+  <li>
+    <p>The product is shipped out to the public by a separate business unit.</p>
+  </li>
+</ol>
+
+<p>The team, exhausted from their release party, begin the process anew.</p>
+
+<p>When pursuing the investment strategies I outlined above, it’s easy to see where the decisions fit in a waterfall model. You can beef up your implementation or test teams if you want to ship faster or higher quality products, or hire big shot product managers to design requirements if you want a product more people want. Simple!</p>
+
+<p>So what’s so bad about this approach? How has software development changed since then? Why is this section titled “The Stone Ages”?</p>
+
+<p>The answer lies in the <em>source</em> of your knowledge. Try and answer these questions:</p>
+
+<ul>
+  <li>How do you know those people you hired are working on the right stuff?</li>
+  <li>How do you know those smart people you hired actually understand your customer and their needs?</li>
+  <li>How do you know the IP you just bought from your competitor is the actual reason they were beating you?</li>
+</ul>
+
+<p>While you can’t make a product without people, and you can’t succeed in an industry without subject matter experts, at the end of the day what you’re participating in is <em>educated guesswork</em>. Your team could be on a truly disastrous trajectory and until your next major release comes out and you get your sales numbers back, there’s almost no way to really know you’ve made a mistake.</p>
+
+<h2 id="what-is-a-team-to-do">What is a team to do?</h2>
+
+<p>There’s a fourth area to invest in here, beyond the three I outlined above. What if instead of asking your employees what the customer wants, you figured out how to make the customer tell you directly? Seems simple enough, and it even fits into your current paradigms! Just get those experts you hired to run some focus groups and user surveys and let the customer speak for themselves. Sounds simple enough, right? Well while those methods can get some useful information, they are pretty expensive to do all the time and can disrupt the flow of development by introducing delays or just producing ambiguous or bad data. In order for this approach to be useful, it needs to be <em>baked into the process</em>. And to do that, it takes a total reinvention of how software is made.</p>
+
+<p>We’ve now identified the problem, and the direction we want to move in for the solution. There is a long way to go! In <a href="/software/2018/01/15/data-driven-product-management-part2.html">part two</a> of this post, we will explore how data-driven decision management strategies can be introduced into the day-to-day process of software development, allowing a team to see insights into their customer base and retrieve feedback in real time, without disrupting the overall experience for the customer.</p>
+
+<p>Thanks for reading the first post on my professional blog. Expect more to come.</p>
+
+<p>Update: <a href="/software/2018/01/15/data-driven-product-management-part2.html">Click here to read part 2 of this series.</a></p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Michael Switzer</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Michael Switzer
+            
+            </li>
+            
+            <li><a href="mailto:not yet folks">not yet folks</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+  <li><a href="https://www.linkedin.com/in/michael-switzer"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">michael-switzer</span></a></li>
+  
+  
+  
+  <li><a href="https://angel.co/michaelswitzer"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#angellist"></use></svg> <span class="username">michaelswitzer</span></a></li>
+  <li><a href="https://github.com/michaelswitzer"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">michaelswitzer</span></a></li>
+  
+  
+  
+  
+  
+  
+</ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is Mike&#39;s officially licensed webbed site. Accept no substitutes. Created using Jekyll and hosted on GitHub Pages.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

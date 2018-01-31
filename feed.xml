@@ -1,4 +1,200 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T18:38:35-08:00</updated><id>http://localhost:4000/</id><title type="html">Michael Switzer</title><subtitle>This is Mike's officially licensed webbed site. Accept no substitutes. Created using Jekyll and hosted on GitHub Pages.</subtitle><entry><title type="html">The Other Side</title><link href="http://localhost:4000/fiction/2018/01/28/the-other-side.html" rel="alternate" type="text/html" title="The Other Side" /><published>2018-01-28T00:00:00-08:00</published><updated>2018-01-28T00:00:00-08:00</updated><id>http://localhost:4000/fiction/2018/01/28/the-other-side</id><content type="html" xml:base="http://localhost:4000/fiction/2018/01/28/the-other-side.html">&lt;p&gt;Frank had a lot of time to think while he was falling. How long he wasn’t exactly sure, but it had certainly been a few hours since his jump. He was now in pitch black darkness, the pinhole of light that had marked the opening of the hole he had jumped into had been swallowed up by the darkness about an hour into his journey. Though there was still air to breathe and to resist his fall, the whistling of the air caused by his body plummeting was so monotone that his brain had essentially shut it off in his head completely. So he was in total sensory deprivation and thus had a lot of time to think.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-30T23:32:41-08:00</updated><id>http://localhost:4000/</id><title type="html">Michael Switzer</title><subtitle>This is Mike's officially licensed webbed site. Accept no substitutes. Created using Jekyll and hosted on GitHub Pages.</subtitle><entry><title type="html">Introduction to Data-driven Product Management: Part 2</title><link href="http://localhost:4000/software/2018/01/15/data-driven-product-management-part2.html" rel="alternate" type="text/html" title="Introduction to Data-driven Product Management: Part 2" /><published>2018-01-15T00:00:00-08:00</published><updated>2018-01-15T00:00:00-08:00</updated><id>http://localhost:4000/software/2018/01/15/data-driven-product-management-part2</id><content type="html" xml:base="http://localhost:4000/software/2018/01/15/data-driven-product-management-part2.html">&lt;h2 id=&quot;were-back&quot;&gt;We’re Back!&lt;/h2&gt;
+&lt;p&gt;In &lt;a href=&quot;/software/2018/01/01/data-driven-product-management-part1.html&quot;&gt;part 1&lt;/a&gt; of this post, we took on the mindset of a CEO looking to improve their companies’ products through investing in more people, better people, and IP. In this post, we’ll explore a fourth area of investment: &lt;em&gt;process&lt;/em&gt;. We will describe how successful companies have upended their development strategies and implemented processes that allowed them to get better insights into their customer base through a technique called “data-driven decision making strategies” (DDDM). We’ll conclude with an example of how Amazon continues to grow traffic on their front page without seriously risking a misstep and interrupting their revenue streams. Let’s get started!&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happened-to-my-versions&quot;&gt;What happened to my versions?&lt;/h2&gt;
+&lt;p&gt;Back in the stone ages, when you bought software like MS Word or TurboTax it had a version attached to it. Your copy of Photoshop 6 had major feature improvements over Photoshop 5, and they were released about a year apart. You may have noticed that most products don’t do this anymore, and web-based products like the Amazon homepage and Google search don’t even show you a version number. What gives? This change reflects a major shift in software design practices toward a method known as “Agile development”. What is Agile in a nutshell? Well let’s start with the method we explored in part 1, known as Waterfall.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/waterfall_dev_photoshop.svg&quot; alt=&quot;Waterfall: design, build, test, ship&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In Waterfall, each version of your software is divided into three major parts: design, build and test. At the end of this cycle, usually months later, you release a full fledged version update with big shifts from version to version. This method worked well for a long time, and made sense in a world where shipping software couldn’t be done easily over the internet. Selling software in a physical store required supply chains to be set up, CDs to be stamped, etc., and you usually had a long lead time to work the kinks out. You could align your Waterfall-based releases with the physical release of software and make a successful product out of it.&lt;/p&gt;
+
+&lt;p&gt;After the internet became widely available, this methodology made a lot less sense and companies that released faster and faster became more and more successful. As a quick example, if google.com only updated their search engine index and algorithm once per year, they obviously wouldn’t be in business. So companies completely changed their outlook, moving to a methodology where design, build and test are fully integrated into a consistent pipeline:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/agile_dev.svg&quot; alt=&quot;following Agile: design, build and test is done on separate branches and merged to master later&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The master branch of the product is considered to be release-quality at all times, because all of the experimental work is performed and tested on separate branches of code. Once the branch is merged, integration tests are run to ensure that quality is maintained throughout.&lt;/p&gt;
+
+&lt;p&gt;Using agile methodologies, the idea of a major release was no longer necessary. Code was shipped very often, in much smaller chunks (usually one feature at a time) and could be given to the customer at the rate the developers churned it out with very little overhead. This enabled web-based apps to ship code quicker and more often, and really changed the face of software development forever.&lt;/p&gt;
+
+&lt;p&gt;A quick aside for a disclaimer: This process explanation is just scratching the surface of how these systems work. There are many many books written on development practices and I am dramatically simplifying things for the sake of getting to the data stuff (I promise it’s coming!).&lt;/p&gt;
+
+&lt;p&gt;So Waterfall to Agile was the first huge shift. What was the next one? I think you can guess, but if you’re truly doubting that I’m finally getting to the point, the answer is DDDM.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-get-serious&quot;&gt;Let’s get serious&lt;/h2&gt;
+&lt;p&gt;When dealing with a highly available software product such as an e-commerce store or a search engine, the stakes are very high. Tiny preterbations in how things work can have massive effects. I heard an anecdote from a PM on a major ecommerce product that one of their developers checked in a change that moved their checkout button one pixel down, and it caused their revenue to plummet by 6%. Six percent for one pixel! In a growth oriented software economy, this could be a death sentence for a product. Why did one pixel mean so much? After spending a lot of money on researchers to figure this out, it turned out the checkout button had been moved outside of the &lt;a href=&quot;https://uxplanet.org/z-shaped-pattern-for-reading-web-content-ce1135f92f1c&quot;&gt;Z-shaped scan pattern&lt;/a&gt; that eyes usually follow when reading a web page.&lt;/p&gt;
+
+&lt;p&gt;I mentioned that a 6% drop in revenue could spell death for a product. So why did this one survive? And how did they correct the problem before it was too late? It turns out the company was at no risk at all, thanks to the DDDM practices they had implemented. The vast majority of their customers had never even seen the change that caused such devastation to their bottom line and the research the company had paid for to figure out the root cause was not so that fingers could be pointed at a developer for messing up, but to improve future development on the product.&lt;/p&gt;
+
+&lt;p&gt;Here’s how they did it:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/agile_dev_DDDM.svg&quot; alt=&quot;Agile, but with an experiment every time you merge to master branch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the Agile pipeline, instead of shipping their code out to all of their customers, they only show a select few their new feature. Automated processes will ship their code to a tiny fraction of users, then start tracking the user’s behavior automatically. User performance can be measured through Key Performance Indicators (KPIs), which can mean revenue, user retention rate, CPU overhead, or any other priority of the company or department. I’ll write a post on selecting KPIs in the future, but for now let’s work with revenue.&lt;/p&gt;
+
+&lt;p&gt;Upon pushing the new code to the ecommerce site, about 0.001% of users browsing to the site saw the checkout button moved one pixel. The automated build process tracked the revenue of users that were browsing the new site vs. the old site, and produced a report indicating that the revenue had dramatically dropped with the new version. With zero human intervention, the build process detected this and reverted the change, saving the company millions. The team responsible for the change was informed and it was back to the drawing board for them.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-real-world-example&quot;&gt;A Real World Example&lt;/h2&gt;
+&lt;p&gt;So you don’t have to rely on my 6% anecdote:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/amazon-home-page.png&quot; alt=&quot;the Amazon home page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Amazon homepage has hundreds of clickable elements and updates every single day with new products and feature announcements. It also drives a massive amount of revenue for the company. If the site went down for even a few minutes, it means &lt;a href=&quot;https://www.digitalcommerce360.com/2016/03/11/how-much-did-amazons-outage-cost-online-giant/&quot;&gt;millions&lt;/a&gt; of dollars lost. You would imagine it is very frightening to work on a team that manages the front page. But the vast majority of the risk involved is mitigated through their build process. Let’s say the team is directed to increase checkout button clickthrough rate for the page, and they have a few different proposals for how:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Program Manager A wants the checkout button to be 10% bigger.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/amazon-home-page-A.png&quot; alt=&quot;the Amazon home page, with a bigger checkout button&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Program Manager B wants the ad on the page reworded to something more persuasive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/amazon-home-page-B.png&quot; alt=&quot;the Amazon home page, with a more pursuasive ad.&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Program Manager C wants the page to automatically redirect to the checkout screen after five seconds if the user doesn’t do anything.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/amazon-home-page-C.gif&quot; alt=&quot;the Amazon home page, with automatic redirects.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the past, they might appeal their proposals to their director of product management, and try to make their cases with good old fashioned powerpoint. Now they just get to work implementing all three changes and let them all duke it out in a no holds barred cage match.&lt;/p&gt;
+
+&lt;p&gt;Three separate experiments are run by the build process and the results come rolling in:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th&gt;Experiment A&lt;/th&gt;
+    &lt;th&gt;Experiment B&lt;/th&gt;
+    &lt;th&gt;Experiment C&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Revenue&lt;/th&gt;
+    &lt;td&gt;+1%&lt;/td&gt;
+    &lt;td&gt;+1%&lt;/td&gt;
+    &lt;td&gt;-46%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Clickthrough Rate&lt;/th&gt;
+    &lt;td&gt;+2%&lt;/td&gt;
+    &lt;td&gt;+3%&lt;/td&gt;
+    &lt;td&gt;+54%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Satisfaction Survey&lt;/th&gt;
+    &lt;td&gt;0&lt;/td&gt;
+    &lt;td&gt;+1%&lt;/td&gt;
+    &lt;td&gt;-64%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;User Retention Rate&lt;/th&gt;
+    &lt;td&gt;+1%&lt;/td&gt;
+    &lt;td&gt;+2%&lt;/td&gt;
+    &lt;td&gt;-92%&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A and B results provide incremental improvements to the clickthrough rate, so those PMs are pretty happy. PM C, though, is beside themselves and cannot stop bragging to everyone. They boast a massive improvement to the metric their boss asked them to improve! Surely a raise is in sight for them!&lt;/p&gt;
+
+&lt;p&gt;But PM C’s change never makes it to production, because it made all the other KPIs much worse. They’ve decided to force their users to go to the checkout screen, and didn’t reckon on the consequences catching up to them. Done right, DDDM is very hard to cheat. There are no short cuts to beat the system with.&lt;/p&gt;
+
+&lt;p&gt;A and B’s features make it to production and they enjoy a healthy bonus the following year.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Does DDDM have any downsides? Sure. It can be expensive to implement these complex testing frameworks and systems, so smaller firms have difficulty keeping up with larger companies. It also, for better or for worse, removes some of the human element of product design. If developers are left unsupervised and the KPIs are prioritized poorly, &lt;a href=&quot;https://youtu.be/e8r47hZX2G8&quot;&gt;dark patterns&lt;/a&gt; of software design can emerge. Even in more ethically produced products, users can begin to feel alienated or manipulated if they catch on to the game that the companies are playing with them. These arguments are worth exploring, but since DDDM is here to stay until the next big paradigm shift inevitably comes, we are better off just trying to make it as functional and powerful a tool as possible.&lt;/p&gt;
+
+&lt;p&gt;The freedom to try new things with zero risk has been revolutionary for software. Incremental improvements are now happening constantly to nearly every major web-based product, while you are experimented on without even knowing what is happening. And now when developers or PMs face a fork in the road or a question of how to implement a new feature, it is often the case that &lt;em&gt;both&lt;/em&gt; features will be implemented and tested, leaving the strongest implementation to show beyond any shadow of a doubt that it is superior.&lt;/p&gt;
+
+&lt;p&gt;There are huge implications for scaling and growing the company as well. While hiring great employees still makes a huge difference, firms can distribute good leaders more thinly across the organization, enabling larger teams to contribute on the same products and still maintain a cohesive vision and strategy. Teams can gain significantly more autonomy now that their decisions are validated by data rather than the intuitions of leadership. A bottom-up culture has grown among tech and now most major feature decisions are made at a lower level of management. Management’s role has also evolved, requiring shrewd data analysts rather than business people with good instincts. Rather than issuing directives like “build me this feature”, they can delegate tasks like “increase checkout button clickthrough rate by 6% in the next year” and allow teams the ability to figure out what that means. DDDM has created an entirely new world for software development.&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;Thank you for reading this post! It was fun to write and I hope you learned something along the way. Though you might not use DDDM directly in your career, understanding how software is made can help you understand how to be a better consumer. If you are making software today and do not employ DDDM, I highly recommend reading more and pitching some ideas to your employer. If they won’t listen, they may not be around in the future to hear you out.&lt;/p&gt;
+
+&lt;p&gt;For continued reading I recommend the following resources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/decision-making&quot;&gt;Coursera course on DDDM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.martinfowler.com/articles/continuousIntegration.html&quot;&gt;Martin Fowler’s work on Continuous Integration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A good statistics or econometrics textbook. I used &lt;a href=&quot;https://www.amazon.com/gp/product/1439840954/&quot;&gt;Andrew Gelman’s Bayesian Data Analysis&lt;/a&gt; book back in college though I can’t speak for others. For true nerds, &lt;a href=&quot;http://andrewgelman.com/&quot;&gt;his blog&lt;/a&gt; is excellent.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">We’re Back! In part 1 of this post, we took on the mindset of a CEO looking to improve their companies’ products through investing in more people, better people, and IP. In this post, we’ll explore a fourth area of investment: process. We will describe how successful companies have upended their development strategies and implemented processes that allowed them to get better insights into their customer base through a technique called “data-driven decision making strategies” (DDDM). We’ll conclude with an example of how Amazon continues to grow traffic on their front page without seriously risking a misstep and interrupting their revenue streams. Let’s get started!</summary></entry><entry><title type="html">Introduction to Data-driven Product Management: Part 1</title><link href="http://localhost:4000/software/2018/01/01/data-driven-product-management-part1.html" rel="alternate" type="text/html" title="Introduction to Data-driven Product Management: Part 1" /><published>2018-01-01T00:00:00-08:00</published><updated>2018-01-01T00:00:00-08:00</updated><id>http://localhost:4000/software/2018/01/01/data-driven-product-management-part1</id><content type="html" xml:base="http://localhost:4000/software/2018/01/01/data-driven-product-management-part1.html">&lt;h2 id=&quot;its-my-first-post&quot;&gt;It’s my first post!&lt;/h2&gt;
+
+&lt;p&gt;For the beginnings of this blog, I thought I would write a high-leveled introduction to what I consider the most important conceptual framework that drives product development today: Data-driven decision making (DDDM). Even for non-tech folks, understanding the basics of DDDM and how it is used to build products can help you protect yourself as a consumer and understand how companies like Amazon, Google and Microsoft manage to maintain high standards of quality even as their companies scale considerably year over year.&lt;/p&gt;
+
+&lt;p&gt;For anyone currently in a product management role, understanding the intricacies of DDDM can mean the difference between a decent product and a hugely successful one. This post is primarily aimed at the total newbie, so if you are already familiar with DDDM and want to get serious about it at your organization, this post is likely not going to be very helpful.&lt;/p&gt;
+
+&lt;p&gt;Last thing I want to say is that while I plan to give examples of how specific products achieve their goals through DDDM, I have never worked for any of the companies I reference and cannot tell you for sure if they are following the practices I describe exactly. I am going to be purposefully broad about this in any case, so don’t take my word as bond. This is really meant to be an introduction for the complete layman, which will necessarily involve a lot of hand waving.&lt;/p&gt;
+
+&lt;p&gt;With that preface out of the way, let’s get into it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-stone-ages&quot;&gt;The Stone Ages&lt;/h2&gt;
+
+&lt;p&gt;Let’s start with a fairly innocuous question: how do big companies make their products better? If the CEO of Microsoft wanted 5% more people to use Outlook by the end of the year, how would they use their budget to do that?&lt;/p&gt;
+
+&lt;p&gt;If you were developing software in 2002, you might try:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hire more people to make more features faster&lt;/li&gt;
+  &lt;li&gt;Hire smarter people to research human behavior and make a product people want&lt;/li&gt;
+  &lt;li&gt;Buy a competing company to acquire their userbase and intellectual property&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These answers are all good, and for a long time, represented the primary ways to get ahead in software. If you weren’t shipping fast enough, hire more hands. If people didn’t like your products, hire experts to tell you why. And if someone did it better anyways, buy ‘em out and call it a day.&lt;/p&gt;
+
+&lt;p&gt;This type of investment strategy is also conducive to the prevailing development paradigm of that era: “Waterfall”  development. I won’t speak too much about different development strategies in this post (that’s for another day) but it is important to point out here that every aspect of software development in inextricably linked together: Investment strategies lead to hiring strategies lead to development strategies lead to shipping strategies, and changing one development paradigm can often impact the entire process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/posts/data-driven-design/waterfall_dev.svg&quot; alt=&quot;Waterfall: design, build, test, ship&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In “waterfall” development, software is made in distinct drawn out phases that cannot be started until the previous phase is complete.&lt;/p&gt;
+
+&lt;p&gt;These phases are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Requirements are collected and synthesized.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Software is designed and built.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A separate team ensures it has the quality necessary to ship.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The product is shipped out to the public by a separate business unit.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The team, exhausted from their release party, begin the process anew.&lt;/p&gt;
+
+&lt;p&gt;When pursuing the investment strategies I outlined above, it’s easy to see where the decisions fit in a waterfall model. You can beef up your implementation or test teams if you want to ship faster or higher quality products, or hire big shot product managers to design requirements if you want a product more people want. Simple!&lt;/p&gt;
+
+&lt;p&gt;So what’s so bad about this approach? How has software development changed since then? Why is this section titled “The Stone Ages”?&lt;/p&gt;
+
+&lt;p&gt;The answer lies in the &lt;em&gt;source&lt;/em&gt; of your knowledge. Try and answer these questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How do you know those people you hired are working on the right stuff?&lt;/li&gt;
+  &lt;li&gt;How do you know those smart people you hired actually understand your customer and their needs?&lt;/li&gt;
+  &lt;li&gt;How do you know the IP you just bought from your competitor is the actual reason they were beating you?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While you can’t make a product without people, and you can’t succeed in an industry without subject matter experts, at the end of the day what you’re participating in is &lt;em&gt;educated guesswork&lt;/em&gt;. Your team could be on a truly disastrous trajectory and until your next major release comes out and you get your sales numbers back, there’s almost no way to really know you’ve made a mistake.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-team-to-do&quot;&gt;What is a team to do?&lt;/h2&gt;
+
+&lt;p&gt;There’s a fourth area to invest in here, beyond the three I outlined above. What if instead of asking your employees what the customer wants, you figured out how to make the customer tell you directly? Seems simple enough, and it even fits into your current paradigms! Just get those experts you hired to run some focus groups and user surveys and let the customer speak for themselves. Sounds simple enough, right? Well while those methods can get some useful information, they are pretty expensive to do all the time and can disrupt the flow of development by introducing delays or just producing ambiguous or bad data. In order for this approach to be useful, it needs to be &lt;em&gt;baked into the process&lt;/em&gt;. And to do that, it takes a total reinvention of how software is made.&lt;/p&gt;
+
+&lt;p&gt;We’ve now identified the problem, and the direction we want to move in for the solution. There is a long way to go! In &lt;a href=&quot;/software/2018/01/15/data-driven-product-management-part2.html&quot;&gt;part two&lt;/a&gt; of this post, we will explore how data-driven decision management strategies can be introduced into the day-to-day process of software development, allowing a team to see insights into their customer base and retrieve feedback in real time, without disrupting the overall experience for the customer.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading the first post on my professional blog. Expect more to come.&lt;/p&gt;
+
+&lt;p&gt;Update: &lt;a href=&quot;/software/2018/01/15/data-driven-product-management-part2.html&quot;&gt;Click here to read part 2 of this series.&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s my first post!</summary></entry><entry><title type="html">Tough Call</title><link href="http://localhost:4000/fiction/2017/12/20/tough-call.html" rel="alternate" type="text/html" title="Tough Call" /><published>2017-12-20T00:00:00-08:00</published><updated>2017-12-20T00:00:00-08:00</updated><id>http://localhost:4000/fiction/2017/12/20/tough-call</id><content type="html" xml:base="http://localhost:4000/fiction/2017/12/20/tough-call.html">&lt;p&gt;Drifting down the Hill on the way to Belltown, dogs occupying all fields of view, a man lost his way and found himself in the back section of Whole Foods comparing two brands of local raw honey.&lt;/p&gt;
+
+&lt;p&gt;His mind’s eye shifted to the blurred modern-gothic castle in which he resided. Focusing on a specific shelf in the pantry, he tried with every ounce of strength to recall which brand his wife had bought last, to no avail. “Come to think of it,” he said aloud accidentally, he also could not remember if he had been satisfied with the experience that the brand had provided.&lt;/p&gt;
+
+&lt;p&gt;Finally his eyes lit up.&lt;/p&gt;
+
+&lt;p&gt;“Six dollars is too much, four dollars is far more appropriate”, he beamed, and success tasted sweet on the rest of his walk.&lt;/p&gt;</content><author><name></name></author><summary type="html">Drifting down the Hill on the way to Belltown, dogs occupying all fields of view, a man lost his way and found himself in the back section of Whole Foods comparing two brands of local raw honey.</summary></entry><entry><title type="html">The Other Side</title><link href="http://localhost:4000/fiction/2017/11/28/the-other-side.html" rel="alternate" type="text/html" title="The Other Side" /><published>2017-11-28T00:00:00-08:00</published><updated>2017-11-28T00:00:00-08:00</updated><id>http://localhost:4000/fiction/2017/11/28/the-other-side</id><content type="html" xml:base="http://localhost:4000/fiction/2017/11/28/the-other-side.html">&lt;p&gt;Frank had a lot of time to think while he was falling. How long he wasn’t exactly sure, but it had certainly been a few hours since his jump. He was now in pitch black darkness, the pinhole of light that had marked the opening of the hole he had jumped into had been swallowed up by the darkness about an hour into his journey. Though there was still air to breathe and to resist his fall, the whistling of the air caused by his body plummeting was so monotone that his brain had essentially shut it off in his head completely. So he was in total sensory deprivation and thus had a lot of time to think.&lt;/p&gt;
 
 &lt;p&gt;At first he thought about why he had jumped in the first place. He recalled that suicidal people who jump from bridges, canyons and the like will mostly immediately regret their decision moments from taking the plunge, and spend their remaining moments on earth lamenting their poor judgement. Frank wasn’t one of those folks, he realized, because it took hours to come to the conclusion that he shouldn’t have done what he did. Once it was clear that the hole had no bottom, no end in sight to his fall and to his life, the absurdity of death became as clear as the absurdity of life. In this state of falling in total blackness and silence, he was essentially dead already, he thought, and he took some time to process this and realize that he didn’t care much for death either. So with that decided, he didn’t have much else to think about as he had spent the last few weeks of his old life coming to terms with everything he could already. So after a while he was bored, then tired, then sleepy, then asleep. He dreamed he was a fish in an aquarium, aimlessly swimming laps around his tiny world.&lt;/p&gt;
 
@@ -34,10 +230,4 @@
 
 &lt;p&gt;After a few hours of agony, Frank sprawled out over the top of the hole. Panting heavily, he thought that this was perhaps the most important moment of his life. He had made it! Where he had made it to, he had no idea. His eyes were still adjusting to the daylight, as he had spent what felt like several days in total blackness, so he could not see any of his surroundings. He could not hear much either, other than some wind rushing past his ears. He felt grass underneath him, grass that was damp and uncomfortable but real and tangible and therefore better than anything back down in the hole.&lt;/p&gt;
 
-&lt;p&gt;Frank’s eyes slowly adjusted to his surroundings. He could now hear birds chirping and waves crashing on a shore, and looking out for the first time with clear eyes he could see a dense tropical forest. Frank saw now that he was on a small island, one with maybe a few thousand feet of space in all directions before ending abruptly in ocean currents. It was a paradise, one Frank may have enjoyed more if he weren’t so hungry and thirsty. He began to wander the small island, peering through the dense grove for sustenance or civilization, but found neither. After about an hour he headed for the shore and sat down on the beach. He took off his shoes and socks and felt the sand between his toes. He was not sure what was to come. He was already forgetting his life before this, images of the other side were slipping away. This island was not home to him, not yet, but it was where he was at the moment.&lt;/p&gt;</content><author><name></name></author><summary type="html">Frank had a lot of time to think while he was falling. How long he wasn’t exactly sure, but it had certainly been a few hours since his jump. He was now in pitch black darkness, the pinhole of light that had marked the opening of the hole he had jumped into had been swallowed up by the darkness about an hour into his journey. Though there was still air to breathe and to resist his fall, the whistling of the air caused by his body plummeting was so monotone that his brain had essentially shut it off in his head completely. So he was in total sensory deprivation and thus had a lot of time to think.</summary></entry><entry><title type="html">Tough Call</title><link href="http://localhost:4000/fiction/2018/01/08/tough-call.html" rel="alternate" type="text/html" title="Tough Call" /><published>2018-01-08T00:00:00-08:00</published><updated>2018-01-08T00:00:00-08:00</updated><id>http://localhost:4000/fiction/2018/01/08/tough-call</id><content type="html" xml:base="http://localhost:4000/fiction/2018/01/08/tough-call.html">&lt;p&gt;Drifting down the Hill on the way to Belltown, dogs occupying all fields of view, Mr. Petterson lost his way and found himself in the back section of Whole Foods comparing two brands of local raw honey.&lt;/p&gt;
-
-&lt;p&gt;His mind’s eye shifted to the blurred modern-gothic castle in which he resided. Focusing on a specific shelf in the pantry, he tried with every ounce of strength to recall which brand his wife had bought last, to no avail. “Come to think of it,” he said aloud accidentally, he also could not remember if he had been satisfied with the experience that the brand had provided.&lt;/p&gt;
-
-&lt;p&gt;Finally his eyes lit up.&lt;/p&gt;
-
-&lt;p&gt;“Six dollars is too much, four dollars is far more appropriate”, he beamed, and success tasted sweet on the rest of his walk.&lt;/p&gt;</content><author><name></name></author><summary type="html">Drifting down the Hill on the way to Belltown, dogs occupying all fields of view, Mr. Petterson lost his way and found himself in the back section of Whole Foods comparing two brands of local raw honey.</summary></entry></feed>
+&lt;p&gt;Frank’s eyes slowly adjusted to his surroundings. He could now hear birds chirping and waves crashing on a shore, and looking out for the first time with clear eyes he could see a dense tropical forest. Frank saw now that he was on a small island, one with maybe a few thousand feet of space in all directions before ending abruptly in ocean currents. It was a paradise, one Frank may have enjoyed more if he weren’t so hungry and thirsty. He began to wander the small island, peering through the dense grove for sustenance or civilization, but found neither. After about an hour he headed for the shore and sat down on the beach. He took off his shoes and socks and felt the sand between his toes. He was not sure what was to come. He was already forgetting his life before this, images of the other side were slipping away. This island was not home to him, not yet, but it was where he was at the moment.&lt;/p&gt;</content><author><name></name></author><summary type="html">Frank had a lot of time to think while he was falling. How long he wasn’t exactly sure, but it had certainly been a few hours since his jump. He was now in pitch black darkness, the pinhole of light that had marked the opening of the hole he had jumped into had been swallowed up by the darkness about an hour into his journey. Though there was still air to breathe and to resist his fall, the whistling of the air caused by his body plummeting was so monotone that his brain had essentially shut it off in his head completely. So he was in total sensory deprivation and thus had a lot of time to think.</summary></entry></feed>
