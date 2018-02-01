@@ -1,5 +1,5 @@
 # Welcome
-My personal website is written using [Jekyll](https://jekyllrb.com).
+My personal website is written using [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com/).
 
 I use the default minima theme, which I have modified a little bit to suit my needs:
 
