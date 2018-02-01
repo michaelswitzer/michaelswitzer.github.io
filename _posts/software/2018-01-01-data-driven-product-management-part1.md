@@ -28,42 +28,31 @@ If you were developing software in 2002, you might try:
 
 These answers are all good, and for a long time they represented the primary ways to get ahead in software. If you weren't shipping fast enough, hire more hands. If people didn't like your products, hire experts to tell you why. And if someone did it better anyways, buy 'em out and call it a day.
 
-This type of investment strategy is also conducive to the prevailing development paradigm of that era: "Waterfall"  development. I won't speak too much about different development strategies in this post (that's for another day) but it is important to point out here that every aspect of software development in inextricably linked together: Investment strategies lead to hiring strategies lead to development strategies lead to shipping strategies, and changing one development paradigm can often impact the entire process.
+This type of investment strategy is also conducive to the prevailing development paradigm of that era: "Waterfall"  development. I won't speak too much about different development strategies in this post, but here is a high-level view of how Waterfall works:
 
 ![Waterfall: design, build, test, ship]({{site.url}}/assets/posts/data-driven-design/waterfall_dev.svg)
 
-In "waterfall" development, software is made in distinct drawn out phases that cannot be started until the previous phase is complete. 
+In Waterfall development, software is produced in phases that cannot be started until the previous phase is complete:
 
-These phases are:
+1. First, requirements are collected and synthesized while an architecture and is decided on. 
+2. Then, engineers build the software based on the requirements.
+3. Next, the quality team tests the code extensively, looking for bugs.
+4. Last, the product is shipped out to the public. 
 
-1. Requirements are collected and synthesized. 
+The team, after a wild release party, begin the process anew. 
 
-2. Software is designed and built.
+When pursuing the investment strategies I outlined above, it's easy to see where the decisions fit in a waterfall model. You can beef up your implementation or test teams if you want to ship faster or higher quality products, or hire big shot product managers like me to design requirements if you want a product more people want. Simple!
 
-3. A separate team ensures it has the quality necessary to ship.
+So what's so bad about this approach? Well despite hiring a bunch of experts, you really can't draw any meaningful conclusions from the work they do. Ask yourself:
 
-4. The product is shipped out to the public by a separate business unit. 
-
-The team, exhausted from their release party, begin the process anew. 
-
-When pursuing the investment strategies I outlined above, it's easy to see where the decisions fit in a waterfall model. You can beef up your implementation or test teams if you want to ship faster or higher quality products, or hire big shot product managers to design requirements if you want a product more people want. Simple!
-
-So what's so bad about this approach? How has software development changed since then? Why is this section titled "The Stone Ages"?
-
-The answer lies in the _source_ of your knowledge. Try and answer these questions:
-
-* How do you know those people you hired are working on the right stuff?
-* How do you know those smart people you hired actually understand your customer and their needs?
-* How do you know the IP you just bought from your competitor is the actual reason they were beating you?
+* How do you _really_ know those people you hired are working on the right stuff?
+* How do you _really_ know those smart people you hired actually understand your customer and their needs?
+* How do you _really_ know the IP you just bought from your competitor is the actual reason they were beating you?
 
 While you can't make a product without people, and you can't succeed in an industry without subject matter experts, at the end of the day what you're participating in is _educated guesswork_. Your team could be on a truly disastrous trajectory and until your next major release comes out and you get your sales numbers back, there's almost no way to really know you've made a mistake.
 
 ## What is a team to do?
 
-There's a fourth area to invest in here, beyond the three I outlined above. What if instead of asking your employees what the customer wants, you figured out how to make the customer tell you directly? Seems simple enough, and it even fits into your current paradigms! Just get those experts you hired to run some focus groups and user surveys and let the customer speak for themselves. Sounds simple enough, right? Well while those methods can get some useful information, they are pretty expensive to do all the time and can disrupt the flow of development by introducing delays or just producing ambiguous or bad data. In order for this approach to be useful, it needs to be _baked into the process_. And to do that, it takes a total reinvention of how software is made.
+There's a fourth area to invest in here, beyond the three I outlined above. Companies have in the past decade started studying their customers and their behavior, adapting their software development processes to apply a more rigorous and scientific approach to implementing their designs. In [part two]({{ site.baseurl }}{% link _posts/software/2018-01-15-data-driven-product-management-part2.md %}) of this post, we will explore how data-driven decision management strategies can be introduced into the day-to-day process of software development, allowing a team to see insights into their customer base and retrieve feedback in real time without disrupting the overall experience for the customer.
 
-We've now identified the problem, and the direction we want to move in for the solution. There is a long way to go! In [part two]({{ site.baseurl }}{% link _posts/software/2018-01-15-data-driven-product-management-part2.md %}) of this post, we will explore how data-driven decision management strategies can be introduced into the day-to-day process of software development, allowing a team to see insights into their customer base and retrieve feedback in real time, without disrupting the overall experience for the customer.
-
-Thanks for reading the first post on my professional blog. Expect more to come.
-
-Update: [Click here to read part 2 of this series.]({{ site.baseurl }}{% link _posts/software/2018-01-15-data-driven-product-management-part2.md %})
+[Click here to read part 2 of this series.]({{ site.baseurl }}{% link _posts/software/2018-01-15-data-driven-product-management-part2.md %})
