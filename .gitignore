@@ -1,0 +1,15 @@
+# Jekyll-related stuff
+# See: http://ben.balter.com/jekyll-style-guide/gitignore/
+_site
+_drafts
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+
+# OS-generated files #
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ethumbs.db
+Thumbs.db
