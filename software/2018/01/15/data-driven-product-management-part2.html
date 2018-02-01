@@ -10,7 +10,7 @@
   <meta name="description" content="We’re Back! In part 1 of this post, we took on the mindset of a CEO looking to improve their companies’ products through investing in more people, better peo...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/software/2018/01/15/data-driven-product-management-part2.html">
+  <link rel="canonical" href="/software/2018/01/15/data-driven-product-management-part2.html">
   <link rel="alternate" type="application/rss+xml" title="Michael Switzer" href="/feed.xml">
   
   
@@ -105,13 +105,13 @@
 <h2 id="what-happened-to-my-versions">What happened to my versions?</h2>
 <p>Back in the stone ages, when you bought software like MS Word or TurboTax it had a version attached to it. Your copy of Photoshop 6 had major feature improvements over Photoshop 5, and they were released about a year apart. You may have noticed that most products don’t do this anymore, and web-based products like the Amazon homepage and Google search don’t even show you a version number. What gives? This change reflects a major shift in software design practices toward a method known as “Agile development”. What is Agile in a nutshell? Well let’s start with the method we explored in part 1, known as Waterfall.</p>
 
-<p><img src="http://localhost:4000/assets/posts/data-driven-design/waterfall_dev_photoshop.svg" alt="Waterfall: design, build, test, ship" /></p>
+<p><img src="/assets/posts/data-driven-design/waterfall_dev_photoshop.svg" alt="Waterfall: design, build, test, ship" /></p>
 
 <p>In Waterfall, each version of your software is divided into three major parts: design, build and test. At the end of this cycle, usually months later, you release a full fledged version update with big shifts from version to version. This method worked well for a long time, and made sense in a world where shipping software couldn’t be done easily over the internet. Selling software in a physical store required supply chains to be set up, CDs to be stamped, etc., and you usually had a long lead time to work the kinks out. You could align your Waterfall-based releases with the physical release of software and make a successful product out of it.</p>
 
 <p>After the internet became widely available, this methodology made a lot less sense and companies that released faster and faster became more and more successful. As a quick example, if google.com only updated their search engine index and algorithm once per year, they obviously wouldn’t be in business. So companies completely changed their outlook, moving to a methodology where design, build and test are fully integrated into a consistent pipeline:</p>
 
-<p><img src="http://localhost:4000/assets/posts/data-driven-design/agile_dev.svg" alt="following Agile: design, build and test is done on separate branches and merged to master later" /></p>
+<p><img src="/assets/posts/data-driven-design/agile_dev.svg" alt="following Agile: design, build and test is done on separate branches and merged to master later" /></p>
 
 <p>The master branch of the product is considered to be release-quality at all times, because all of the experimental work is performed and tested on separate branches of code. Once the branch is merged, integration tests are run to ensure that quality is maintained throughout.</p>
 
@@ -128,7 +128,7 @@
 
 <p>Here’s how they did it:</p>
 
-<p><img src="http://localhost:4000/assets/posts/data-driven-design/agile_dev_DDDM.svg" alt="Agile, but with an experiment every time you merge to master branch" /></p>
+<p><img src="/assets/posts/data-driven-design/agile_dev_DDDM.svg&quot;" alt="Agile, but with an experiment every time you merge to master branch" /></p>
 
 <p>At the end of the Agile pipeline, instead of shipping their code out to all of their customers, they only show a select few their new feature. Automated processes will ship their code to a tiny fraction of users, then start tracking the user’s behavior automatically. User performance can be measured through Key Performance Indicators (KPIs), which can mean revenue, user retention rate, CPU overhead, or any other priority of the company or department. I’ll write a post on selecting KPIs in the future, but for now let’s work with revenue.</p>
 
@@ -137,7 +137,7 @@
 <h2 id="a-real-world-example">A Real World Example</h2>
 <p>So you don’t have to rely on my 6% anecdote:</p>
 
-<p><img src="http://localhost:4000/assets/posts/data-driven-design/amazon-home-page.png" alt="the Amazon home page" /></p>
+<p><img src="/assets/posts/data-driven-design/amazon-home-page.png" alt="the Amazon home page" /></p>
 
 <p>The Amazon homepage has hundreds of clickable elements and updates every single day with new products and feature announcements. It also drives a massive amount of revenue for the company. If the site went down for even a few minutes, it means <a href="https://www.digitalcommerce360.com/2016/03/11/how-much-did-amazons-outage-cost-online-giant/">millions</a> of dollars lost. You would imagine it is very frightening to work on a team that manages the front page. But the vast majority of the risk involved is mitigated through their build process. Let’s say the team is directed to increase checkout button clickthrough rate for the page, and they have a few different proposals for how:</p>
 
@@ -145,19 +145,19 @@
   <li>Program Manager A wants the checkout button to be 10% bigger.</li>
 </ul>
 
-<p><img src="http://localhost:4000/assets/posts/data-driven-design/amazon-home-page-A.png" alt="the Amazon home page, with a bigger checkout button" /></p>
+<p><img src="/assets/posts/data-driven-design/amazon-home-page-A.png" alt="the Amazon home page, with a bigger checkout button" /></p>
 
 <ul>
   <li>Program Manager B wants the ad on the page reworded to something more persuasive.</li>
 </ul>
 
-<p><img src="http://localhost:4000/assets/posts/data-driven-design/amazon-home-page-B.png" alt="the Amazon home page, with a more pursuasive ad." /></p>
+<p><img src="/assets/posts/data-driven-design/amazon-home-page-B.png" alt="the Amazon home page, with a more pursuasive ad." /></p>
 
 <ul>
   <li>Program Manager C wants the page to automatically redirect to the checkout screen after five seconds if the user doesn’t do anything.</li>
 </ul>
 
-<p><img src="http://localhost:4000/assets/posts/data-driven-design/amazon-home-page-C.gif" alt="the Amazon home page, with automatic redirects." /></p>
+<p><img src="/assets/posts/data-driven-design/amazon-home-page-C.gif" alt="the Amazon home page, with automatic redirects." /></p>
 
 <p>In the past, they might appeal their proposals to their director of product management, and try to make their cases with good old fashioned powerpoint. Now they just get to work implementing all three changes and let them all duke it out in a no holds barred cage match.</p>
 
