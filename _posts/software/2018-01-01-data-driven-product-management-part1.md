@@ -34,14 +34,14 @@ This type of investment strategy is also conducive to the prevailing development
 
 In Waterfall development, software is produced in phases that cannot be started until the previous phase is complete:
 
-1. First, requirements are collected and synthesized while an architecture and is decided on. 
+1. First, requirements are collected and synthesized while the architecture and designs are decided. 
 2. Then, engineers build the software based on the requirements.
 3. Next, the quality team tests the code extensively, looking for bugs.
 4. Last, the product is shipped out to the public. 
 
-The team, after a wild release party, begin the process anew. 
+The team, after a wild release party, begins the process anew. 
 
-When pursuing the investment strategies I outlined above, it's easy to see where the decisions fit in a waterfall model. You can beef up your implementation or test teams if you want to ship faster or higher quality products, or hire big shot product managers like me to design requirements if you want a product more people want. Simple!
+When pursuing the investment strategies I outlined above, it's easy to see where the decisions fit into a waterfall model. You can beef up your implementation or test teams if you want to ship faster or higher quality products, or hire big shot product managers like me to design requirements if you want a product more people want. Simple!
 
 So what's so bad about this approach? Well despite hiring a bunch of experts, you really can't draw any meaningful conclusions from the work they do. Ask yourself:
 
