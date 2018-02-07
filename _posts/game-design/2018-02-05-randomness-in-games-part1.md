@@ -31,7 +31,7 @@ The outcome of a game of Candyland is determined before play begins. Once the de
 
 I am not picking on a children's toy or saying it should try to do anything more than it does. The game is, in fact, commercially successful because of its simplicity and accessibility as a result of removing determinism from the player. In leaning heavily on the suspense engine, though, the game becomes more reliant on its thematic elements to provide an interesting experience for the player.
 
-The converse of this is that games with very weak suspense engines are less reliant on their theme. Take Chess for example. Chess lacks a cohesive theme or material incentive to play, yet has a huge amount of player determinism. The only random element it contains is the initial turn order, and a very high skill ceiling enables players to enjoy Chess for years or more. Due to the agency offered to the players, Chess enjoys a massive fanbase dating back hundreds of years.
+The converse of this is that games with very weak suspense engines are less reliant on their theme. Take Chess for example. Chess lacks a cohesive theme or material incentive to play, yet has a huge amount of player determinism. The only random element it contains is the initial turn order. The game has a very high skill ceiling, enabling players to enjoy Chess for years or more. Due to the agency offered to the players, Chess enjoys significant success dating back hundreds of years.
 
 So if we accept that player determinism _or_ attractive theme is necessary, then we have a model for creating successful games. So theme and determinism drive game quality:
 
