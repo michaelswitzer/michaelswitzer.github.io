@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to Data-driven Product Management: Part 1"
+title:  "Data-driven Product Management Part 1"
 permalink: /software/:year/:month/:day/:title.html
 date:   2018-01-01
 type: Software
