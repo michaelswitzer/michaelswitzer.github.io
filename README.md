@@ -15,6 +15,9 @@ I use the default minima theme, which I have modified a little bit to suit my ne
 4. To run locally, run `bundle exec jekyll serve`. I add the `--drafts` flag to preview posts in my (non public) `_drafts` folder.
 5. `jekyll serve` will return an IP. Paste this IP into your browser to see what your site will look like.
 
+## Deploying to GitHub Pages
+Create a new repo on your GitHub called `(your username).github.io` and commit the site files to it. The page will automatically be built and display at the URL.
+
 ## License
 
 The following directories and their contents are Copyright Michael Switzer. You may not reuse anything therein without my permission:
