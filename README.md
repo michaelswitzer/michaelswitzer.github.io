@@ -12,7 +12,7 @@ I use the default minima theme, which I have modified a little bit to suit my ne
 1. Install Ruby and [bundler](http://bundler.io/).
 2. Clone this repo to a local directory.
 3. `cd` to the directory and run `bundle install`.
-4. To run locally, run `bundle exec jekyll serve`. I add the `--drafts` flag to preview posts in my (non public) `_drafts` folder.
+4. To run locally, run `bundle exec jekyll serve`. I add the `--draft` flag to preview posts in my (non public) `_drafts` folder.
 5. `jekyll serve` will return an IP. Paste this IP into your browser to see what your site will look like.
 
 ## Deploying to GitHub Pages
