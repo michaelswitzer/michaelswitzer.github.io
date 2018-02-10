@@ -7,7 +7,11 @@ type: Game Design
 summary: Our first exploration of randomness in games. We explore the most common type of randomness found in games - known as suspense engines.
 ---
 
+## "Not fair! You Just Got Lucky"
+
 This is the first post in a series about randomness in games. Randomness is a core element of many games, and a peripheral element of many more. As a game designer, it is important to examine the role of randomness in a game and how it can enhance or detract from the players' experience. In this series, we will examine how randomness can be classified into different categories of game feature, and how these classifications affect gameplay in a general sense. Though I believe the classifications I outline here are observable on an objective basis, this is fundamentally an opinionated post so take what is said here with a grain of salt.
+
+## Gambling away your agency
 
 Let's start with a very simple game, with a strong component of randomness: The slot machine.
 
@@ -21,6 +25,8 @@ Suspense engines drive essentially all casino games. No matter the preferred gam
 
 Though they aren't my personal preference, I cannot make the claim that casino games are not engaging and interesting to many people. The term "gambing addiction" would not exist if casino games did not compel certain people to play them. But I will say with some degree of confidence that _games that are reliant on suspense engines to drive the action are not compelling in of themselves_. Slot machines have flashing lights and exciting sounds, as well as the possibility of winning real money, which captivates players and keeps them interested. Taking the stakes away equates to taking the fun away.
 
+## Mechanics + Theme = Fun
+
 In game design we refer to the peripheral elements of the presentation of the game generally as its _theme_. A game like Chess is not a strongly thematic game, while almost all casino games (dripping with flashy distractions and holding real, material stakes) are highly thematic.
 
 Here is another slot machine with a theme:
@@ -32,6 +38,8 @@ The outcome of a game of Candyland is determined before play begins. Once the de
 I am not picking on a children's toy or saying it should try to do anything more than it does. The game is, in fact, commercially successful because of its simplicity and accessibility as a result of removing determinism from the player. In leaning heavily on the suspense engine, though, the game becomes more reliant on its thematic elements to provide an interesting experience for the player.
 
 The converse of this is that games with very weak suspense engines are less reliant on their theme. Take Chess for example. Chess lacks a cohesive theme or material incentive to play, yet has a huge amount of player determinism. The only random element it contains is the initial turn order. The game has a very high skill ceiling, enabling players to enjoy Chess for years or more. Due to the agency offered to the players, Chess enjoys significant success dating back hundreds of years.
+
+## A Balancing Act
 
 So if we accept that player determinism _or_ attractive theme is necessary, then we have a model for creating successful games. So theme and determinism drive game quality:
 
@@ -46,5 +54,7 @@ But on the flip side, decreased player determinism signals reduced complexity an
 ![Graph depicting accessibility as a function of determinism]({{site.url}}/assets/posts/randomness/deterministic_vs_accessible.gif)
 
 Successful games require enough quality to be compelling and enough accessibility to find an audience. Following our model, if a game is going to compromise its quality by removing determinism, a designer has to provide a strong theme for the player to connect with. For a child, this might be a cutesy fantasy world. For an adult, it may mean flashing lights and real stakes. In both cases, the game's chance of success goes up dramatically.
+
+## Thank you
 
 This concludes part 1 of a multi part series on randomness in games. Randomness is not strictly applied in games in the form of suspense engines, and it is possible to introduce randomness to a game in ways that do not reduce player agency. Instead, randomness may be used to provide an organically unique experience for the player with each playthrough, or even to enrich the thematic nature of the game. We will explore the latter in the form of _story engines_, in part 2 of this series. Thanks for reading!
