@@ -11,7 +11,9 @@ summary: An primer on the mathematics that drive experimental software developme
 
 This post will serve as a broad introduction to the mathematics behind applying Data-Driven Decisionmaking Strategies (DDDM) to software development. For information on the value of DDDM to a software business, see my previous series: [part 1]({{ site.baseurl }}{% link _posts/software/2018-01-01-data-driven-product-management-part1.md %}) and [part 2]({{ site.baseurl }}{% link _posts/software/2018-01-15-data-driven-product-management-part2.md %}).
 
-For this post I will violate a cardinal sin of math teachers everywhere: I will not be offering proofs for any of the theorems I assert to be true. I do not ask specifically that you trust everything I say, but if you really want to read a proof of the Central Limit Theorem it is available in all sorts of other places online. This post alone will not be enough for anyone to implement an experimental software design pipeline in their own business; instead I hope it serves as a launching point to give potential converts a sense of what to study next. As always, expect a lot of hand waving and reduced complexity for the sake of making a point. Let's get started!
+For this post I will not be offering proofs for any of the theorems I assert to be true. I do not ask specifically that you blindly trust everything I say (I have been known to make mistakes from time to time), but if you really want to read a proof of the Central Limit Theorem it is available in all sorts of other places online. My blog is not a substitution for a mathematics education, I highly recommend taking a full econometrics or experimental statistics course to get a real understanding of these concepts.
+
+This post alone will not be enough for anyone to implement an experimental software design pipeline in their own business; instead I hope it serves as a launching point to give potential converts a sense of what to study next. Expect a lot of hand waving and simplification.  With that out of the way, let's get started!
 
 ## Relying on Science
 
