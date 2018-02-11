@@ -105,7 +105,7 @@ Necessary Sample Size = (Confidence Level)² * StdDev*(1-StdDev) / (Margin of er
 For more information, take a look at [Qualtrics' page on sample sizes](https://www.qualtrics.com/blog/determining-sample-size/).
 
 ## TL;DR
-That was a lot of math! In general, the appropriate process for experimental software design is:
+In general, the appropriate process for experimental software design is:
 
 * Determine sample size for the experiment
 * Sample that number of users against a control group
