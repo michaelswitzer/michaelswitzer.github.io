@@ -19,7 +19,7 @@ This post alone will not be enough for anyone to implement an experimental softw
 
 To quickly summarize my previous introductions to experimental software design:
 * Companies cannot rely on intuition alone, since intuition carries risks
-* Successful software companies have added a layer of insurance to their employees' intuition: by relying on the scientific method to validate their assumptions
+* Successful software companies have added a layer of insurance to their employees' intuition: by utilizing the scientific method to validate their assumptions
 * Every new product, feature, or line of code is subjected to automatic tests that roll changes out to a small percentage of their users and tracks how many different metrics, called Key Performance Indicators (KPIs) respond.
 * If a statistically significant number of users respond positively to the new code, that code gets to stay in the product. Otherwise it is rejected and the engineers must continue tweaking it or abandon the feature entirely.
 
