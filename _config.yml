@@ -23,6 +23,9 @@ social_sites:
     linkedin: michael-switzer
     github: michaelswitzer
     angellist: michaelswitzer
+    
+# Google analytics
+google_analytics: UA-114137119-1
 
 # Build settings
 markdown: kramdown
