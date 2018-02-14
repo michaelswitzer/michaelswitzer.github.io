@@ -4,7 +4,10 @@
   {% include head.html %}
 
   <body>
-
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+    
     {% include header.html %}
 
     <main class="page-content" aria-label="Content">
@@ -14,10 +17,7 @@
     </main>
 
     {% include footer.html %}
-
-    {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
+    
   </body>
 
 </html>
