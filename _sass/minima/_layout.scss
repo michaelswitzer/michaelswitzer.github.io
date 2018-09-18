@@ -183,6 +183,13 @@
   @include relative-font-size(1.25);
 }
 
+.about-img-link {
+  &:hover {
+    background-color:yellow;
+    color:yellow;
+  }
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -249,20 +256,20 @@
   }
 }
 
-.page-navigation {
+.post-navigation {
   font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden;
 }
 
-.page-navigation a {
+.post-navigation a {
   display: block;
   width: 50%;
   float: left;
   margin: 1em 0;
 }
 
-.page-navigation .next {
+.post-navigation .next {
   text-align: right;
 }

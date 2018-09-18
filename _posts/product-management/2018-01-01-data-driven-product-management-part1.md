@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Data-driven Product Management Part 1"
-permalink: /software/:year/:month/:day/:title.html
+permalink: /product-management/:year/:month/:day/:title.html
 date:   2018-01-01
-type: Software
+type: Product Management
 summary: We explore Waterfall development strategies and give a brief overview of how the world looked before big data.
 ---
 
@@ -53,4 +53,4 @@ While you can't make a product without people, and you can't succeed in an indus
 
 ## What is a team to do?
 
-There's a fourth area to invest in here, beyond the three I outlined above. Companies have in the past decade started studying their customers and their behavior, adapting their software development processes to apply a more rigorous and scientific approach to implementing their designs. In [part two]({{ site.baseurl }}{% link _posts/software/2018-01-15-data-driven-product-management-part2.md %}) of this post, we will explore how data-driven decision management strategies can be introduced into the day-to-day process of software development, allowing a team to see insights into their customer base and retrieve feedback in real time without disrupting the overall experience for the customer.
+There's a fourth area to invest in here, beyond the three I outlined above. Companies have in the past decade started studying their customers and their behavior, adapting their software development processes to apply a more rigorous and scientific approach to implementing their designs. In [part two]({{ site.baseurl }}{% link _posts/product-management/2018-01-15-data-driven-product-management-part2.md %}) of this post, we will explore how data-driven decision management strategies can be introduced into the day-to-day process of software development, allowing a team to see insights into their customer base and retrieve feedback in real time without disrupting the overall experience for the customer.

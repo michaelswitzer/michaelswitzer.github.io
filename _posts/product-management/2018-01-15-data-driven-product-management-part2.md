@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Data-driven Product Management Part 2"
-permalink: /software/:year/:month/:day/:title.html
-type: Software
+permalink: /product-management/:year/:month/:day/:title.html
+type: Product Management
 date:   2018-01-15
 summary: Follow up to part 1. We explain at a high level how adopting Agile methodologies have changed software design, and describe how data-driven design strategies (DDDM) is applied to deliver quality software with minimum risk to revenue interruption.
 ---
 
 ### We're Back!
-In [part 1]({{ site.baseurl }}{% link _posts/software/2018-01-01-data-driven-product-management-part1.md %}) of this series, we explored the three most straightforward strategies companies use to make software better: Hiring more people, hiring more effective people, and acquiring IP. 
+In [part 1]({{ site.baseurl }}{% link _posts/product-management/2018-01-01-data-driven-product-management-part1.md %}) of this series, we explored the three most straightforward strategies companies use to make software better: Hiring more people, hiring more effective people, and acquiring IP. 
 
 In this post, we'll explore a fourth area of investment that has revolutionized software development in the last decade: _improving development process_. We will describe how successful companies have radically changed their development strategies through Data-driven Decision Making (DDDM).
 
@@ -17,7 +17,7 @@ We'll conclude with a (fictional) example of how companies like Amazon ship feat
 ### Software before the internet
 Before the internet became widely available, software was bought in a store instead of downloaded. Since it was relatively expensive to print CDs and floppy disks, companies couldn't distribute their software very often, and so they planned their product releases on a fixed cycle. Since their release dates were set ahead of time, it required a lot of up-front planning to figure out what they were going to be able to finish by the time the next release came around.
 
-In [part 1]({{ site.baseurl }}{% link _posts/software/2018-01-01-data-driven-product-management-part1.md %}) we looked at the Waterfall method of product development:
+In [part 1]({{ site.baseurl }}{% link _posts/product-management/2018-01-01-data-driven-product-management-part1.md %}) we looked at the Waterfall method of product development:
 
 ![Waterfall: design, build, test, ship]({{site.url}}/assets/posts/data-driven-design/waterfall_dev.svg)
 
