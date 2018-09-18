@@ -16,7 +16,7 @@
 title: Michael Switzer
 email: mike@michaelswitzer.net
 description: >- # this means to ignore newlines until "baseurl:"
-  This is Mike's officially licensed webbed site. Accept no substitutes. Created using Jekyll and hosted on GitHub Pages.
+  This is Mike's officially licensed webbed site. Accept no substitutes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.michaelswitzer.net" # the base hostname & protocol for your site, e.g. http://example.com
 social_sites:
