@@ -10,5 +10,5 @@ One foot in front of the other
 There are times you just can't miss a day and  
 consistency is key.  
 Sometimes you put your passions and mood on hold
-and just get it damn done.
+and just get it damn done.  
 Put up or shut up
