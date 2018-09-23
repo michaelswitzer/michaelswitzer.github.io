@@ -2,8 +2,8 @@
 layout: post
 title:  "The Other Side"
 date:   2017-11-28
-permalink: /fiction/:year/:month/:day/:title.html
-type: Fiction
+permalink: /personal/:year/:month/:day/:title.html
+type: Personal
 summary: A man falls into a hole.
 ---
 Frank had a lot of time to think while he was falling. How long he wasn't exactly sure, but it had certainly been a few hours since his jump. He was now in pitch black darkness, the pinhole of light that had marked the opening of the hole he had jumped into had been swallowed up by the darkness about an hour into his journey. Though there was still air to breathe and to resist his fall, the whistling of the air caused by his body plummeting was so monotone that his brain had essentially shut it off in his head completely. So he was in total sensory deprivation and thus had a lot of time to think.

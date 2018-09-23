@@ -2,8 +2,8 @@
 layout: post
 title:  "Tough Call"
 date:   2017-12-20
-permalink: /fiction/:year/:month/:day/:title.html
-type: Fiction
+permalink: /personal/:year/:month/:day/:title.html
+type: Personal
 summary: These all look the same to me.
 ---
 Drifting down the Hill on the way to Belltown, dogs occupying all fields of view, a man lost his way and found himself in the back section of Whole Foods comparing two brands of local raw honey.

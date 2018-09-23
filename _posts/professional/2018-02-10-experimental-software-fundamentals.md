@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Experimental Software Fundamentals"
-permalink: /product-management/:year/:month/:day/:title.html
+permalink: /professional/:year/:month/:day/:title.html
 date:   2018-02-10
-type: Product Management
+type: Professional
 summary: An primer on the mathematics that drive experimental software development.
 ---
 
 ## Warning: Math Ahead
 
-This post will serve as a broad introduction to the mathematics behind applying Data-Driven Decisionmaking Strategies (DDDM) to software development. For information on the value of DDDM to a software business, see my previous series: [part 1]({{ site.baseurl }}{% link _posts/product-management/2018-01-01-data-driven-product-management-part1.md %}) and [part 2]({{ site.baseurl }}{% link _posts/product-management/2018-01-15-data-driven-product-management-part2.md %}).
+This post will serve as a broad introduction to the mathematics behind applying Data-Driven Decisionmaking Strategies (DDDM) to software development. For information on the value of DDDM to a software business, see my previous series: [part 1]({{ site.baseurl }}{% link _posts/professional/2018-01-01-data-driven-product-management-part1.md %}) and [part 2]({{ site.baseurl }}{% link _posts/professional/2018-01-15-data-driven-product-management-part2.md %}).
 
 For this post I will not be offering proofs for any of the theorems I assert to be true. I do not ask specifically that you blindly trust everything I say (I have been known to make mistakes from time to time), but if you really want to read a proof of the Central Limit Theorem it is available in all sorts of other places online. My blog is not a substitution for a mathematics education, I highly recommend taking a full econometrics or experimental statistics course to get a real understanding of these concepts.
 
@@ -82,7 +82,7 @@ Finally we can talk about estimate confidence. Why was it so important to show t
 
 On average, we can expect 95% of our collected samples to be within 2 standard deviations of the mean, and 99.7% to be within 3. How is this useful to us? Let's try an example.
 
-Say we build a new feature that is supposed to improve our clickthrough rate for the checkout button (same example as in [my DDDM introduction post]({{ site.baseurl }}{% link _posts/product-management/2018-01-15-data-driven-product-management-part2.md %})). There are two different proposals on the table and we want to know which one is most successful, so we implement both them and release the new code experimentally to small portions of our userbase. Say we collect enough samples for the CLT to kick in and we have a good sense of what the the PDFs for these experiments look like. When we overlay them on top of each other, along with the original (control) data, it looks like this: 
+Say we build a new feature that is supposed to improve our clickthrough rate for the checkout button (same example as in [my DDDM introduction post]({{ site.baseurl }}{% link _posts/professional/2018-01-15-data-driven-product-management-part2.md %})). There are two different proposals on the table and we want to know which one is most successful, so we implement both them and release the new code experimentally to small portions of our userbase. Say we collect enough samples for the CLT to kick in and we have a good sense of what the the PDFs for these experiments look like. When we overlay them on top of each other, along with the original (control) data, it looks like this: 
 
 ![Two normally distributed curves with crossover]({{site.url}}/assets/posts/experimental-software-primer/experiment-conclusive.png)
 
