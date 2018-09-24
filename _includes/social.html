@@ -1,5 +1,4 @@
 <ul class="social-media-list">
-  {% if site.author %}<li>{{ site.author | escape }}</li>{% endif %}
   {% if site.email %}<li><a href="mailto:{{ site.email }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#email"></use></svg> <span class="username">{{ site.email | escape }}</span></a></li>{% endif %}
   {% if site.social_sites.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.social_sites.linkedin | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">{{ site.social_sites.linkedin | escape }}</span></a></li>{% endif %}
   {% if site.social_sites.dribbble %}<li><a href="https://dribbble.com/{{ site.social_sites.dribbble | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#dribbble"></use></svg> <span class="username">{{ site.social_sites.dribbble | escape }}</span></a></li>{% endif %}
