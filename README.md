@@ -1,12 +1,7 @@
 # Welcome
 My personal website is written using [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com/).
 
-I use the default minima theme, which I have modified a little bit to suit my needs:
-
-* Multiple blog setup
-* Angel.co social button
-* Some smart filtering/routing using [Liquid](https://help.shopify.com/themes/liquid/basics)
-* More tiny tweaks
+I started with the minima theme and modified it for my needs. My design goal was to have a static site I could publish to easily, but not lock myself into an ecosystem that I couldn't experiment in. Jekyll is really awesome for this.
 
 ## Running Locally
 1. Install Ruby and [bundler](http://bundler.io/).
