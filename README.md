@@ -1,7 +1,11 @@
 # Welcome
-My personal website is written using [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com/).
+My personal website is written using [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com/). I started with the minima theme and modified it for my needs. 
 
-I started with the minima theme and modified it for my needs. My design goal was to have a static site I could publish to easily, but not lock myself into an ecosystem that I couldn't experiment in. Jekyll is really awesome for this.
+Design goals for this project:
+* Make it as easy as possible to publish content
+* Keep the site static for free hosting
+* Leave the door open for experimentation
+* Simpler is better
 
 ## Running Locally
 1. Install Ruby and [bundler](http://bundler.io/).
