@@ -39,7 +39,7 @@ This did not completely remove uncertainty, though. Any time code was shipped, i
 ### Scientific method to the rescue!
 Teams decided to start treating their features like experiments. If they showed the work to just a few of their users and collected data based on their behavior, they could get a good sense of whether the feature was a good thing or not.
 
-To explain this a little bit better I'll go through a fictional example of what it would be like to manage Amazon's home page. I do not work for Amazon and thus cannot tell you anything about the exact methodologies they use to implement DDDM, but rather the general process used to assist in decisionmaking. Let's get started!
+To explain this a little bit better I'll go through a fictional example of what it would be like to manage Amazon's home page. I do not work for Amazon currently and thus cannot tell you anything about the exact methodologies they use to implement DDDM, but rather the general process used to assist in decisionmaking that many companies use today. Let's get started!
 
 ### What's at stake
 
