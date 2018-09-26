@@ -160,10 +160,6 @@
   padding: $spacing-unit 0;
 }
 
-.page-heading {
-  @include relative-font-size(1.25);
-}
-
 .about-img-link {
   &:hover {
     background-color:yellow;
